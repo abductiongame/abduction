@@ -6,7 +6,7 @@
 
 [![X](https://img.shields.io/badge/@abductiongame-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/abductiongame)
 
-[Play](https://abduction.vercel.app) · [Community on X](https://x.com/abductiongame)
+[Play](https://abduction.buzz) · [Community on X](https://x.com/abductiongame)
 
 </div>
 
@@ -54,6 +54,11 @@ npm run deploy
 ```
 
 Or connect [github.com/rapkuryer/abduction](https://github.com/rapkuryer/abduction) in Vercel — build command: `npm run build`, output: `site`.
+
+**Domain DNS (`abduction.buzz`)**
+
+- `A` `@` → `76.76.21.21`
+- `CNAME` `www` → `cname.vercel-dns.com`
 
 ---
 

@@ -5,3 +5,4 @@ node_modules/
 _source/raw/
 _source/beautified/
 _source/harvest/_external/
+.vercel

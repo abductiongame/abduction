@@ -9,7 +9,8 @@ import { fileURLToPath } from 'node:url';
 const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const SRC = path.join(ROOT, '_source/harvest');
 const OUT = path.join(ROOT, 'site');
-const SITE_URL = (process.env.SITE_URL || 'https://abduction.vercel.app').replace(/\/$/, '');
+const SITE_URL = (process.env.SITE_URL || 'https://abduction.buzz').replace(/\/$/, '');
+const COVER_SRC = path.join(ROOT, '_source/raw/assets/images/cover.jpg');
 
 const LOTTIE = [
   { url: 'https://assets6.lottiefiles.com/packages/lf20_pkig7lzg.json', file: 'lottie/desktop-move.json' },
@@ -74,7 +75,16 @@ function patchHtml(html) {
       /<meta name="twitter:site" content="@lusionltd">/,
       `<meta name="twitter:site" content="${META.twitter}">`,
     )
-    .replace(/<title>Abduction<\/title>/, `<title>${META.title}</title>`);
+    .replace(/<title>Abduction<\/title>/, `<title>${META.title}</title>`)
+    .replace(/content="https:\/\/abduction\.vercel\.app[^"]*"/g, (m) => {
+      const key = m.split('=')[0];
+      if (m.includes('cover.jpg')) return `${key}="${cover}"`;
+      return `${key}="${SITE_URL}"`;
+    });
+
+  if (!html.includes('rel="canonical"')) {
+    html = html.replace('</head>', ` <link rel="canonical" href="${SITE_URL}/">\n</head>`);
+  }
 
   // Remove Google Analytics
   html = html.replace(/<script async src="https:\/\/www\.googletagmanager\.com\/gtag\/js[^<]*><\/script>\s*/g, '');
@@ -169,9 +179,29 @@ function patchHtml(html) {
   return html;
 }
 
+async function ensureCover() {
+  const dest = path.join(OUT, 'assets/images/cover.jpg');
+  await fs.mkdir(path.dirname(dest), { recursive: true });
+  try {
+    await fs.copyFile(COVER_SRC, dest);
+    console.log('  cover.jpg');
+  } catch {
+    try {
+      const res = await fetch('https://exp-abduction.lusion.co/assets/images/cover.jpg');
+      if (res.ok) {
+        await fs.writeFile(dest, Buffer.from(await res.arrayBuffer()));
+        console.log('  cover.jpg (fetched)');
+      }
+    } catch (err) {
+      console.warn('  cover.jpg skip', err.message);
+    }
+  }
+}
+
 async function main() {
   console.log('→ Copying harvest assets…');
   await copyTree(SRC, OUT, new Set(['abduction-ui.css', 'abduction-ui.js']));
+  await ensureCover();
 
   console.log('→ Fetching lottie files…');
   await fetchLottie();
