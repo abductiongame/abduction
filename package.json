@@ -1,0 +1,12 @@
+{
+  "name": "abduction",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Abduction — WebGL UFO crowd chaos mini-game",
+  "scripts": {
+    "build": "node scripts/build-site.mjs",
+    "start": "npx --yes serve site -l 3789",
+    "dev": "npm run build && npx --yes serve site -l 3789",
+    "deploy": "npm run build && vercel --prod --yes"
+  }
+}

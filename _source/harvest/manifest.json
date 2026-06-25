@@ -1,0 +1,317 @@
+[
+  {
+    "url": "https://exp-abduction.lusion.co/",
+    "status": 200,
+    "kind": "html",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 17813,
+    "saved": "index.html",
+    "source": "harvest"
+  },
+  {
+    "url": "https://exp-abduction.lusion.co/assets/css/index.css",
+    "status": 200,
+    "kind": "style",
+    "contentType": "text/css; charset=UTF-8",
+    "bytes": 21289,
+    "saved": "assets/css/index.css",
+    "source": "harvest"
+  },
+  {
+    "url": "https://exp-abduction.lusion.co/assets/js/dat.gui.min.js",
+    "status": 200,
+    "kind": "script",
+    "contentType": "application/javascript; charset=UTF-8",
+    "bytes": 49967,
+    "saved": "assets/js/dat.gui.min.js",
+    "source": "harvest"
+  },
+  {
+    "url": "https://exp-abduction.lusion.co/assets/fonts/roboto-regular-webfont.woff2",
+    "status": 200,
+    "kind": "font",
+    "contentType": "font/woff2",
+    "bytes": 19380,
+    "saved": "assets/fonts/roboto-regular-webfont.woff2",
+    "source": "harvest"
+  },
+  {
+    "url": "https://exp-abduction.lusion.co/assets/fonts/rochester-regular-webfont.woff2",
+    "status": 200,
+    "kind": "font",
+    "contentType": "font/woff2",
+    "bytes": 38128,
+    "saved": "assets/fonts/rochester-regular-webfont.woff2",
+    "source": "harvest"
+  },
+  {
+    "url": "https://exp-abduction.lusion.co/assets/fonts/Aeonik-Regular.woff2",
+    "status": 200,
+    "kind": "font",
+    "contentType": "font/woff2",
+    "bytes": 29088,
+    "saved": "assets/fonts/Aeonik-Regular.woff2",
+    "source": "harvest"
+  },
+  {
+    "url": "https://exp-abduction.lusion.co/assets/js/index.js",
+    "status": 200,
+    "kind": "script",
+    "contentType": "application/javascript; charset=UTF-8",
+    "bytes": 1317638,
+    "saved": "assets/js/index.js",
+    "source": "harvest"
+  },
+  {
+    "url": "https://exp-abduction.lusion.co/assets/images/background-preloader-dithered.png",
+    "status": 200,
+    "kind": "texture",
+    "contentType": "image/png",
+    "bytes": 177200,
+    "saved": "assets/images/background-preloader-dithered.png",
+    "source": "harvest"
+  },
+  {
+    "url": "https://exp-abduction.lusion.co/assets/models/map_bottom.buf",
+    "status": 200,
+    "kind": "other",
+    "contentType": "application/octet-stream",
+    "bytes": 162000,
+    "saved": "assets/models/map_bottom.buf",
+    "source": "harvest"
+  },
+  {
+    "url": "https://exp-abduction.lusion.co/assets/models/map.buf",
+    "status": 200,
+    "kind": "other",
+    "contentType": "application/octet-stream",
+    "bytes": 211614,
+    "saved": "assets/models/map.buf",
+    "source": "harvest"
+  },
+  {
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-XK78QP0PZB",
+    "status": 200,
+    "kind": "script",
+    "contentType": "application/javascript; charset=UTF-8",
+    "bytes": 480243,
+    "saved": "_external/www.googletagmanager.com/gtag/js",
+    "source": "harvest"
+  },
+  {
+    "url": "https://exp-abduction.lusion.co/assets/textures/LDR_RGB1_6.png",
+    "status": 200,
+    "kind": "texture",
+    "contentType": "image/png",
+    "bytes": 56497,
+    "saved": "assets/textures/LDR_RGB1_6.png",
+    "source": "harvest"
+  },
+  {
+    "url": "https://assets6.lottiefiles.com/packages/lf20_pkig7lzg.json",
+    "status": 200,
+    "kind": "data",
+    "contentType": "application/json",
+    "bytes": 8492,
+    "saved": "_external/assets6.lottiefiles.com/packages/lf20_pkig7lzg.json",
+    "source": "harvest"
+  },
+  {
+    "url": "https://assets5.lottiefiles.com/packages/lf20_ivy6zky2.json",
+    "status": 200,
+    "kind": "data",
+    "contentType": "application/json",
+    "bytes": 371950,
+    "saved": "_external/assets5.lottiefiles.com/packages/lf20_ivy6zky2.json",
+    "source": "harvest"
+  },
+  {
+    "url": "https://assets6.lottiefiles.com/packages/lf20_mnas6uzf.json",
+    "status": 200,
+    "kind": "data",
+    "contentType": "application/json",
+    "bytes": 8580,
+    "saved": "_external/assets6.lottiefiles.com/packages/lf20_mnas6uzf.json",
+    "source": "harvest"
+  },
+  {
+    "url": "https://assets10.lottiefiles.com/packages/lf20_mtckmfhx.json",
+    "status": 200,
+    "kind": "data",
+    "contentType": "application/json",
+    "bytes": 26389,
+    "saved": "_external/assets10.lottiefiles.com/packages/lf20_mtckmfhx.json",
+    "source": "harvest"
+  },
+  {
+    "url": "https://assets1.lottiefiles.com/packages/lf20_ojnk6hzm.json",
+    "status": 200,
+    "kind": "data",
+    "contentType": "application/json",
+    "bytes": 8436,
+    "saved": "_external/assets1.lottiefiles.com/packages/lf20_ojnk6hzm.json",
+    "source": "harvest"
+  },
+  {
+    "url": "https://exp-abduction.lusion.co/assets/models/person.buf",
+    "status": 200,
+    "kind": "other",
+    "contentType": "application/octet-stream",
+    "bytes": 4020,
+    "saved": "assets/models/person.buf",
+    "source": "harvest"
+  },
+  {
+    "url": "https://exp-abduction.lusion.co/assets/audios//hover_1.mp3",
+    "status": 206,
+    "kind": "media",
+    "contentType": "audio/mpeg",
+    "bytes": 3760,
+    "saved": "assets/audios/hover_1.mp3",
+    "source": "harvest"
+  },
+  {
+    "url": "https://exp-abduction.lusion.co/assets/audios//hover_0.mp3",
+    "status": 206,
+    "kind": "media",
+    "contentType": "audio/mpeg",
+    "bytes": 3760,
+    "saved": "assets/audios/hover_0.mp3",
+    "source": "harvest"
+  },
+  {
+    "url": "https://exp-abduction.lusion.co/assets/textures/person_colors.png",
+    "status": 200,
+    "kind": "texture",
+    "contentType": "image/png",
+    "bytes": 7112,
+    "saved": "assets/textures/person_colors.png",
+    "source": "harvest"
+  },
+  {
+    "url": "https://exp-abduction.lusion.co/assets/audios//scream.mp3",
+    "status": 206,
+    "kind": "media",
+    "contentType": "audio/mpeg",
+    "bytes": 174912,
+    "saved": "assets/audios/scream.mp3",
+    "source": "harvest"
+  },
+  {
+    "url": "https://exp-abduction.lusion.co/assets/textures/map_info.png",
+    "status": 200,
+    "kind": "texture",
+    "contentType": "image/png",
+    "bytes": 204592,
+    "saved": "assets/textures/map_info.png",
+    "source": "harvest"
+  },
+  {
+    "url": "https://exp-abduction.lusion.co/assets/models/walking.buf",
+    "status": 200,
+    "kind": "other",
+    "contentType": "application/octet-stream",
+    "bytes": 29916,
+    "saved": "assets/models/walking.buf",
+    "source": "harvest"
+  },
+  {
+    "url": "https://exp-abduction.lusion.co/assets/models/idle.buf",
+    "status": 200,
+    "kind": "other",
+    "contentType": "application/octet-stream",
+    "bytes": 174632,
+    "saved": "assets/models/idle.buf",
+    "source": "harvest"
+  },
+  {
+    "url": "https://exp-abduction.lusion.co/assets/audios//crowd.mp3",
+    "status": 206,
+    "kind": "media",
+    "contentType": "audio/mpeg",
+    "bytes": 482115,
+    "saved": "assets/audios/crowd.mp3",
+    "source": "harvest"
+  },
+  {
+    "url": "https://exp-abduction.lusion.co/assets/models/running.buf",
+    "status": 200,
+    "kind": "other",
+    "contentType": "application/octet-stream",
+    "bytes": 20716,
+    "saved": "assets/models/running.buf",
+    "source": "harvest"
+  },
+  {
+    "url": "https://exp-abduction.lusion.co/assets/models/falling.buf",
+    "status": 200,
+    "kind": "other",
+    "contentType": "application/octet-stream",
+    "bytes": 110244,
+    "saved": "assets/models/falling.buf",
+    "source": "harvest"
+  },
+  {
+    "url": "https://exp-abduction.lusion.co/assets/textures/map.jpg",
+    "status": 200,
+    "kind": "texture",
+    "contentType": "image/jpeg",
+    "bytes": 1424458,
+    "saved": "assets/textures/map.jpg",
+    "source": "harvest"
+  },
+  {
+    "url": "https://exp-abduction.lusion.co/assets/models/dies.buf",
+    "status": 200,
+    "kind": "other",
+    "contentType": "application/octet-stream",
+    "bytes": 3288,
+    "saved": "assets/models/dies.buf",
+    "source": "harvest"
+  },
+  {
+    "url": "https://exp-abduction.lusion.co/assets/audios//Sun-Drenched-Branches_AdobeStock_357353399.mp3",
+    "status": 206,
+    "kind": "media",
+    "contentType": "audio/mpeg",
+    "bytes": 796032,
+    "saved": "assets/audios/Sun-Drenched-Branches_AdobeStock_357353399.mp3",
+    "source": "harvest"
+  },
+  {
+    "url": "https://exp-abduction.lusion.co/assets/textures/ufo.png",
+    "status": 200,
+    "kind": "texture",
+    "contentType": "image/png",
+    "bytes": 275241,
+    "saved": "assets/textures/ufo.png",
+    "source": "harvest"
+  },
+  {
+    "url": "https://exp-abduction.lusion.co/assets/textures/ufo_matcap.png",
+    "status": 200,
+    "kind": "texture",
+    "contentType": "image/png",
+    "bytes": 65180,
+    "saved": "assets/textures/ufo_matcap.png",
+    "source": "harvest"
+  },
+  {
+    "url": "https://exp-abduction.lusion.co/assets/models/ufo.buf",
+    "status": 200,
+    "kind": "other",
+    "contentType": "application/octet-stream",
+    "bytes": 45304,
+    "saved": "assets/models/ufo.buf",
+    "source": "harvest"
+  },
+  {
+    "url": "https://exp-abduction.lusion.co/assets/images/favicon/favicon.ico",
+    "status": 200,
+    "kind": "other",
+    "contentType": "image/vnd.microsoft.icon",
+    "bytes": 34494,
+    "saved": "assets/images/favicon/favicon.ico",
+    "source": "harvest"
+  }
+]
