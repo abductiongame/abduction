@@ -26,6 +26,7 @@ const META = {
     'Pilot a UFO over a living city. A WebGL crowd-simulation sandbox where you scoop, toss, and terrorize thousands of tiny humans in real time.',
   twitter: '@abductiongame',
   twitterUrl: 'https://x.com/abductiongame',
+  docsUrl: 'https://github.com/abductiongame/abduction/tree/main/docs',
 };
 
 async function copyTree(srcDir, outDir, skip = new Set()) {
@@ -143,12 +144,20 @@ function patchHtml(html) {
  </p>
  </div>
  </div>
+ <div class="about-actions">
+ <a class="btn explore-btn has-rollover-audio" href="${META.docsUrl}" target="_blank" rel="noopener">
+ <svg class="explore-btn--arrow" width="32" height="6" viewBox="0 0 32 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+ <path d="M0 3H30.5M30.5 3C29.537 2.75 27.6111 1.8 27.6111 0M30.5 3C29.537 3.25 27.6111 4.2 27.6111 6" stroke="white" stroke-width="0.5"/>
+ </svg>
+ <span class="explore-btn--text" split-by="letter" letter-animation="fadeIn">Documentation</span>
+ </a>
  <a class="btn explore-btn has-rollover-audio" href="${META.twitterUrl}" target="_blank" rel="noopener">
  <svg class="explore-btn--arrow" width="32" height="6" viewBox="0 0 32 6" fill="none" xmlns="http://www.w3.org/2000/svg">
  <path d="M0 3H30.5M30.5 3C29.537 2.75 27.6111 1.8 27.6111 0M30.5 3C29.537 3.25 27.6111 4.2 27.6111 6" stroke="white" stroke-width="0.5"/>
  </svg>
  <span class="explore-btn--text" split-by="letter" letter-animation="fadeIn">Follow on X</span>
  </a>
+ </div>
  </div>
  <div id="about-right-column">
  <div class="about-column--group">

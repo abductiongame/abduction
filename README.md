@@ -4,9 +4,11 @@
 
 **WebGL UFO sandbox — scoop crowds, toss humans, cause chaos**
 
+[![Play](https://img.shields.io/badge/Play-abduction.buzz-7c3aed?style=for-the-badge)](https://www.abduction.buzz/)
+[![Docs](https://img.shields.io/badge/Docs-read%20online-2563eb?style=for-the-badge)](https://github.com/abductiongame/abduction/tree/main/docs)
 [![X](https://img.shields.io/badge/@abductiongame-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/abductiongame)
 
-[Play](https://abduction.buzz) · [Community on X](https://x.com/abductiongame)
+[Play](https://www.abduction.buzz/) · [Documentation](./docs/README.md) · [Community on X](https://x.com/abductiongame)
 
 </div>
 
@@ -23,9 +25,25 @@
 
 ---
 
+## Documentation
+
+Full docs live in [`docs/`](./docs/README.md):
+
+| Guide | Topic |
+|-------|-------|
+| [Getting Started](./docs/GETTING_STARTED.md) | Clone, build, run locally |
+| [Controls](./docs/CONTROLS.md) | Desktop & mobile input |
+| [Architecture](./docs/ARCHITECTURE.md) | Project structure & WebGL stack |
+| [Deployment](./docs/DEPLOYMENT.md) | Vercel & DNS setup |
+| [Credits](./docs/CREDITS.md) | Original authors |
+
+---
+
 ## Local dev
 
 ```bash
+git clone https://github.com/abductiongame/abduction.git
+cd abduction
 npm run build
 npm start
 ```
@@ -41,6 +59,7 @@ Static **WebGL** game in `site/` — extracted from [exp-abduction.lusion.co](ht
 ```
 site/                  → deployable game
 scripts/build-site.mjs → rebuild branded index.html
+docs/                  → project documentation
 vercel.json            → Vercel static config
 _source/               → GAMETA crawl + harvest output
 ```
@@ -53,7 +72,7 @@ _source/               → GAMETA crawl + harvest output
 npm run deploy
 ```
 
-Or connect [github.com/rapkuryer/abduction](https://github.com/rapkuryer/abduction) in Vercel — build command: `npm run build`, output: `site`.
+Or connect [github.com/abductiongame/abduction](https://github.com/abductiongame/abduction) in Vercel — build command: `npm run build`, output: `site`.
 
 **Domain DNS (`abduction.buzz`)**
 
