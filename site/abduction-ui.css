@@ -24,6 +24,7 @@
 }
 
 #ab-docs,
+#ab-github,
 #ab-twitter {
   display: inline-flex;
   align-items: center;
@@ -44,6 +45,7 @@
 }
 
 #ab-docs svg,
+#ab-github svg,
 #ab-twitter svg {
   width: 15px;
   height: 15px;
@@ -54,6 +56,8 @@
 
 #ab-docs:hover,
 #ab-docs:focus-visible,
+#ab-github:hover,
+#ab-github:focus-visible,
 #ab-twitter:hover,
 #ab-twitter:focus-visible {
   background: rgba(43, 45, 46, 0.38);
